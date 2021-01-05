@@ -1,20 +1,38 @@
 # Tech Conference Application
 
-NOTE: Documentation can be accessed through javadoc/index.html
----------------------------------------------------
-How to install and run the program.
+Tech Conference Application is a project for CSC207 Software Design course at University of Toronto during the Fall 2020 Semester. The application allows users to sign up for accounts as different user types such as Organizer, Speaker, User, VIP. Each user types contain different functions of their own. Organizers are able to create and manage events and rooms, speakers are able to speak at different events, users and VIPs are able to sign up at different events. Every user has the ability to message and add other users to their contacts. The data is stored locally and PDF output of the event schedule and room is available.
+
+## Main Contributions:
+* Eric Lin: erichungyu.lin@mail.utoronto.ca
+  * Event functionality and program compilation
+* Haoying Shen: haoying.shen@mail.utoronto.ca
+  * User functionality
+* Ryan Wang: ryanjun.wang@mail.utoronto.ca
+  * Messaging/Request functionality
+* Temilade Adeleye: temilade.adeleye@mail.utoronto.ca
+  * Data saving features
+* Zihao Shen: zihao.sheng@mail.utoronto.ca
+  * Room functionality and UI design
+
+## Documentation
+
+Documentation can be accessed through the gh-pages branch or at https://restia1230.github.io/Tech-Conference-Application/
+
+## Installation
+
+How to install and run the program in IntelliJ.
 
 Instructions to try out the functionality.
 
 Input instructions are displayed within the program, this readme only contains the basics to running the program
 
-How to run the program:
+### How to run the program:
 1. To run the program, run the main class
 
 2. For best results RESET the database the first time you run the program.
 
 
-Notes on user creation:
+### Notes on user creation:
 1. Username must be greater than 5 characters and cannot have a space
 
 2. Speakers are made through an option in the organizer
@@ -22,7 +40,7 @@ Notes on user creation:
 3. The name and password can be blank if you wish
 
 
-Notes on creating events:
+### Notes on creating events:
 1. Can only be done by organizers
 
 2. The default event begins at eventID: 1 and then it increases as you make more events,
@@ -39,7 +57,7 @@ before making your second event, the second event will have eventID 2
 6. In the phase 1 version the end time does not matter, as all events are considered 1 hour long regardless
 
 
-Notes on messaging:
+### Notes on messaging:
 1. Everyone is able to message everyone without restrictions, should you know the username of the other person
 
 2. You are suggested certain recipients such as those on your contacts list, or attending/speaking at the same
@@ -48,7 +66,7 @@ event
 3. Organizers can see all users and can mass message various groups
 
 
-Notes on how to add maven dependencies to run the ConvertToPDF.java class:
+### Notes on how to add maven dependencies to run the ConvertToPDF.java class:
 1. Add maven support
 - Right-click your project and select Add Framework Support
 - Select Maven from the options in the dialog and click OK
@@ -114,10 +132,3 @@ Notes on how to add maven dependencies to run the ConvertToPDF.java class:
 
 5. The maven dependencies should have been added to the project by now,
 but to confirm check the external libraries there should be maven external libraries.
-
-Main Contributions:
-- Eric Lin: Event functionality and program compilation
-- Hao Shen: User functionality
-- Ryan Wang: Messaging/Request functionality
-- Temilade Adeleye: Data saving features
-- Zihao Shen: Room functionality and UI design
