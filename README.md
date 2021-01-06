@@ -11,7 +11,7 @@ Tech Conference Application is a project for CSC207 Software Design course at Un
   * Messaging/Request functionality
 * Temilade Adeleye: temilade.adeleye@mail.utoronto.ca
   * Data saving features
-* Zihao Shen: zihao.sheng@mail.utoronto.ca
+* Zihao Sheng: zihao.sheng@mail.utoronto.ca
   * Room functionality and UI design
 
 ## Documentation
